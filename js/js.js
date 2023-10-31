@@ -50,3 +50,66 @@ var swiper = new Swiper(".mySwiper", {
     linkShowSlider.style.display="block";
     linkHideSlider.style.display="none"
   })
+
+
+ 
+  // let scrollvalue=window.scrollY;
+
+  // window.addEventListener("scroll", () => {
+
+  //    if(scrollvalue >50)
+  //   {
+  //     console.log(scrollvalue)
+  //     mainSwiper.style.bottom="0%";
+  //   } 
+ 
+  // })
+
+  function showAndHideSlider ()
+  {
+    let scrollvalue=window.scrollY;
+  if(scrollvalue <5)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-50%";
+    } 
+
+    else if(scrollvalue <15)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-40%";
+    } 
+
+    else if(scrollvalue <25)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-30%";
+    }
+
+    else if(scrollvalue <35)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-20%";
+    }
+
+    else if(scrollvalue <45)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-10%";
+    }
+
+    else if(scrollvalue <65)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="-5%";
+    }
+
+    else if(scrollvalue <75)
+    {
+      console.log(scrollvalue)
+      mainSwiper.style.bottom="0%";
+    }
+
+  }
+
+  window.addEventListener('scroll',showAndHideSlider);

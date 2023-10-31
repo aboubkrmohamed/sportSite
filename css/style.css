@@ -61,15 +61,46 @@ overflow-x: hidden;
 
 .show-slider ,.hide-slider
 {
-    z-index: 99999;
-    margin: 0 25%;
- position: relative;
-      text-align: center;
-     color: #fff;
-     cursor: pointer;
- 
+ z-index: 99999;
+ margin:2% 50%;
+ position: absolute; 
+ color: #fff;
+  margin-top: 30px;
+  
  }
- 
+ #linkShowSlider ,#linkHideSlider
+ {
+  cursor: pointer;
+  border: 1px solid #fff;
+   padding: 20px;
+   border-radius: 50%;
+   position: relative;
+ }
+ #iconShowSlider  ,#iconHideSlider
+ {
+  position: absolute;
+
+  transition: all 1s;
+  font-size: 1.4rem;
+  left: 25%;
+  -webkit-animation: glowing 1000ms infinite;
+  top: 10%;
+
+ }
+ @keyframes glowing {
+  0% {
+    top: 60%;
+  }
+  50% {
+    top: 0%;
+
+  }
+  100% {
+    top: 60%;
+
+  }
+}
+
  #linkHideSlider
  {
      display: none;
@@ -308,17 +339,55 @@ background-image: url('../imges/hslide1.jpg');
      padding: 10px;
  }
 
- .child button 
- {
-     background-color: #ff2850;
+
+ /* {
      margin:  15px;
      padding: 12px 20px;
      border: none;
      color: #fff;
      font-size: 900;
+  } */
+
+
+  .child-btn  {
+    border-radius: 4px;
+    background-color: #ff2850;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    /* font-size: 28px; */
+    padding:12px 20px;
+    /* width: 200px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
   }
 
+  
+.child-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.child-btn span:after {
+  content: '\00bb';
+  position: absolute;
+   opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
+.child:hover .child-btn>span {
+  padding-right: 20px;
 
+  
+}
 
+.child:hover .child-btn>span:after {
+  opacity: 1;
+  right: 0;
+} 
+/* */

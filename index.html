@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
 
     <title>Sport</title>
+    <link rel="icon" href="imges/featured_channel.jpg" type="image/x-icon">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"> -->
     <!------- links fonts ------>
 
     <link rel="stylesheet" href="fonts/JuventusFans--bold.woff2">
@@ -22,14 +22,6 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/style.css">
-
-
- 
-
-
-    <!-- <link rel="stylesheet" href="css/slick.css"> -->
-    <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
-
 </head>
 <body>
 
@@ -41,12 +33,15 @@
             <div class="content" >
                 
             <div class="show-slider">
-                <h1 id="linkShowSlider"> Show </h1>
+                <span id="linkShowSlider"> <i id="iconShowSlider"  class="fa-solid fa-angle-down"></i> </span>
             </div>
 
+            
             <div class="hide-slider">
-                <h1 id="linkHideSlider"> Hide </h1>
+                <span id="linkHideSlider"> <i id="iconHideSlider"  class="fa-solid fa-angle-up"></i> </span>
             </div>
+
+
             
                 <div class="navbar"  >
                     <div class="nav-ele">
@@ -100,7 +95,8 @@
                     <div class="child" style="background-image: url('imges/hslide1.jpg');" >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -111,19 +107,18 @@
                     <div class="child" style="background-image: url('imges/hslide2.jpg');"  >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
                 </div>
-
 
                 <div class="swiper-slide">
                   
                     <div class="child" style="background-image: url('imges/hslide3.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -134,7 +129,7 @@
                     <div class="child" style="background-image: url('imges/hslide4.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -145,7 +140,7 @@
                     <div class="child" style="background-image: url('imges/hslide5.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -156,7 +151,7 @@
                     <div class="child" style="background-image: url('imges/hslide6.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -167,7 +162,7 @@
                     <div class="child" style="background-image: url('imges/hslide3.jpg');"    >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -178,7 +173,7 @@
                     <div class="child"style="background-image: url('imges/hslide4.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
@@ -189,13 +184,12 @@
                     <div class="child" style="background-image: url('imges/hslide2.jpg');"   >
                         <div class="layer">
                             <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button>READ ARTICLE</button>
+                            <button class="child-btn"> <span>READ ARTICLE</span></button>
                         </div>    
                     </div>
               
                 </div>
 
- 
             </div>
           
             <div class="swiper-pagination"></div>
@@ -210,8 +204,10 @@
 
     <div class="swiper-button-next"> </div>
     <div class="swiper-button-prev"></div>
-    <!-- <script 
-    src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <h1 class="all-contents">kigyu</h1>
+
+    <script 
+    src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- <script  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
 
       <script src="js/all.min.js"></script>
