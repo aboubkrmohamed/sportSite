@@ -13,203 +13,364 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!------- links fonts ------>
 
-    <link rel="stylesheet" href="fonts/JuventusFans--bold.woff2">
     <link rel="stylesheet" href="fonts/JuventusFans--boldstretched.woff2">
     <link rel="stylesheet" href="fonts/JuventusFans--light.woff2">
     <link rel="stylesheet" href="fonts/JuventusFans--medium.woff2">
     <link rel="stylesheet" href="fonts/JuventusFans--regular.woff2">
     <link rel="stylesheet" href="fonts/Roboto--regular.woff2">
+    <link rel="stylesheet" href="fonts/JuventusFans--bold.woff2">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- home  -->
+    <section>
 
-    <div class="home">
+        <div class="home">
 
-        <div class="slider" id="slider" >
-
-
-            <div class="content" >
+            <div class="slider" id="slider" >
+    
+    
+                <div class="content" >
+                    
+                <div class="show-slider">
+                    <span id="linkShowSlider"> <i id="iconShowSlider"  class="fa-solid fa-angle-down"></i> </span>
+                </div>
+    
                 
-            <div class="show-slider">
-                <span id="linkShowSlider"> <i id="iconShowSlider"  class="fa-solid fa-angle-down"></i> </span>
-            </div>
-
-            
-            <div class="hide-slider">
-                <span id="linkHideSlider"> <i id="iconHideSlider"  class="fa-solid fa-angle-up"></i> </span>
-            </div>
-
-
-            
-                <div class="navbar"  >
-                    <div class="nav-ele">
-                        <img src="imges/featured_channel.jpg" class="w-100 pb-5" style="text-align: start;" >
-                        <div class="links">
-                            <a ><i class="fa-solid fa-ticket "></i><span class="title-link ">TICKETS</span></a>
-                            <a ><i class="fa-solid fa-bag-shopping"></i><span class="title-link ">SHOP</span></a>
-                            <a > <i class="fa-solid fa-people-group"></i> <span class="title-link ">BIANCONERI</span></a>
-                            <a ><i class="fa-regular fa-circle-play"></i><span class="title-link ">JUVENTUS</span></a>
-                            <a ><i class="fa-solid fa-ellipsis-vertical"></i><span class="title-link ">MORE</span></a>
+                <div class="hide-slider">
+                    <span id="linkHideSlider"> <i id="iconHideSlider"  class="fa-solid fa-angle-up"></i> </span>
+                </div>
+    
+    
+                
+                    <div class="navbar"  >
+                        <div class="nav-ele">
+                            <img src="imges/featured_channel.jpg" class="w-100 pb-5" style="text-align: start;" >
+                            <div class="links">
+                                <a ><i class="fa-solid fa-ticket "></i><span class="title-link ">TICKETS</span></a>
+                                <a ><i class="fa-solid fa-bag-shopping"></i><span class="title-link ">SHOP</span></a>
+                                <a > <i class="fa-solid fa-people-group"></i> <span class="title-link ">BIANCONERI</span></a>
+                                <a ><i class="fa-regular fa-circle-play"></i><span class="title-link ">JUVENTUS</span></a>
+                                <a ><i class="fa-solid fa-ellipsis-vertical"></i><span class="title-link ">MORE</span></a>
+                            </div>
                         </div>
-                    </div>
-                 </div>
-
-                 <!-- logo right  -->
-                 <div class="logo-right d-flex">
-
-                    <div class="imges-logo d-flex" >
-                        <img src="imges/d.png"  alt="addidas">
-                        <img src="imges/jeep.png"  alt="jeep">
-                        
-                    <div class="icons-logo d-flex  ">
-                        <a class="pe-3" href=""><i class="fa-solid fa-magnifying-glass ms-5"></i></a>
-                        <a class="pe-3"><i class="fa-regular fa-circle-question"></i></a>
-                        <a class="pe-3"><i class="fa-regular fa-user"></i></a>
-                        
-                    </div>
-                    </div>
-
-
-                 </div>
-
-                 <!-- social media  -->
-                 <div class="social-media">
-
-                    <a><i class="fa-brands fa-facebook-f for-icon-social"></i></a>
-                    <a><i class="fa-brands fa-instagram for-icon-social"></i></a>
-                    <a><i class="fa-brands fa-youtube for-icon-social"></i></a>
-                    <a><i class="fa-brands fa-twitter for-icon-social"></i></a>
-                    <a><i class="fa-brands fa-tiktok for-icon-social"></i></a>
-                    <a><i class=" fa-brands fa-twitch for-icon-social"></i></a>
-                    <a><i class=" fa-solid fa-notes-medical for-icon-social"></i></a>
-                
-                 </div>
-                        <!-- Swiper -->
-        <div class="swiper mySwiper" id="mainSwiper">
-            <div class="swiper-wrapper">
-              
-                <div class="swiper-slide">
-                  
-                    <div class="child" style="background-image: url('imges/hslide1.jpg');" >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                     </div>
+    
+                     <!-- logo right  -->
+                     <div class="logo-right d-flex">
+    
+                        <div class="imges-logo d-flex" >
+                            <img src="imges/d.png"  alt="addidas">
+                            <img src="imges/jeep.png"  alt="jeep">
                             
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
-                    </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+                        <div class="icons-logo d-flex  ">
+                            <a class="pe-3" href=""><i class="fa-solid fa-magnifying-glass ms-5"></i></a>
+                            <a class="pe-3"><i class="fa-regular fa-circle-question"></i></a>
+                            <a class="pe-3"><i class="fa-regular fa-user"></i></a>
+                            
+                        </div>
+                        </div>
+    
+    
+                     </div>
+    
+                     <!-- social media  -->
+                     <div class="social-media">
+    
+                        <a><i class="fa-brands fa-facebook-f for-icon-social"></i></a>
+                        <a><i class="fa-brands fa-instagram for-icon-social"></i></a>
+                        <a><i class="fa-brands fa-youtube for-icon-social"></i></a>
+                        <a><i class="fa-brands fa-twitter for-icon-social"></i></a>
+                        <a><i class="fa-brands fa-tiktok for-icon-social"></i></a>
+                        <a><i class=" fa-brands fa-twitch for-icon-social"></i></a>
+                        <a><i class=" fa-solid fa-notes-medical for-icon-social"></i></a>
+                    
+                     </div>
+                            <!-- Swiper -->
+            <div class="swiper mySwiper" id="mainSwiper">
+                <div class="swiper-wrapper">
                   
-                    <div class="child" style="background-image: url('imges/hslide2.jpg');"  >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
-                    </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide1.jpg');" >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide3.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide2.jpg');"  >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide4.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide3.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide5.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide4.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide6.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
-                </div>        
-
-                 <div class="swiper-slide">
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide5.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide3.jpg');"    >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide6.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child"style="background-image: url('imges/hslide4.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
-                    </div>
-              
-                </div>
-
-                <div class="swiper-slide">
+                    </div>        
+    
+                     <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide3.jpg');"    >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
                   
-                    <div class="child" style="background-image: url('imges/hslide2.jpg');"   >
-                        <div class="layer">
-                            <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
-                            <button class="child-btn"> <span>READ ARTICLE</span></button>
-                        </div>    
                     </div>
-              
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child"style="background-image: url('imges/hslide4.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
+                  
+                    </div>
+    
+                    <div class="swiper-slide">
+                      
+                        <div class="child" style="background-image: url('imges/hslide2.jpg');"   >
+                            <div class="layer">
+                                <h2 class="child-title">GALLERY| <br> JUVENTUS-UERONA</h2>
+                                <button class="child-btn"> <span>READ ARTICLE</span></button>
+                            </div>    
+                        </div>
+                  
+                    </div>
+    
                 </div>
+              
+                <div class="swiper-pagination"></div>
+              </div>
+    
+              <!-- Swiper JS -->
+                </div>
+             </div>    
+      
+        </div>
+    
+    
+        <div class="swiper-button-next"> </div>
+        <div class="swiper-button-prev"></div>
+        
+        <div class="all-contents"> 
+            <button> <i class="fa-solid fa-arrow-right-long icon-all-contents"></i> All Contents</button>
+        </div>
+    </section>
+    <!---------------------------------------------------->
 
+    <!-- last match & next Match  -->
+
+    <section>
+
+       <div class="results-match  mt-5 mb-5">
+        <div class="row pt-5 mb-5 gx-2">
+
+
+            <!------ last match ------>
+            <div class="col-md-5">
+                <div class="last-match">
+                    <h6 style="text-align: start;" class="ps-5">Last matches:</h6>
+
+                    <div class="result-next-match">
+
+                        <div class="first-match">
+                            <div class="history-match">
+                                <h6>22 <br>  oct</h6>
+                            </div>
+
+
+                             <div class="lm">
+                                <span class="SERIE "> SERIE A - 21:45</span>
+
+                                <div class="goals mt-3">
+                                     <div class="team-name">
+                                        <h4>MILAN </h4> 
+                                        <h4>JUVENTUS</h4>    
+                                    </div>  
+                                    <div class="ms-5">
+                                        <span class="mt-4">0</span>
+                                        <span class="mt-4">1</span>
+                                    </div>           
+                                </div>
+                                <button class="matchroom-btn"> <span>MATCHROOM</span> <i class=" icon-matchroom-btn fa-solid fa-angles-right"></i></button>
+
+                             </div>
+
+                             
+                        </div>
+                        
+              
+                        <div class="first-match">
+                            <div class="history-match">
+                                <h6>28 <br>  oct</h6>
+                            </div>
+
+
+                             <div class="lm">
+                                <span class="SERIE "> SERIE A - 21:45</span>
+
+                                <div class="goals mt-3">
+                                     <div class="team-name">
+                                        <h4>JUVENTUS </h4> 
+                                        <h5>HELLAS </h5>    
+                                        <h5>VERONA </h5>    
+
+                                    </div>  
+                                    <div class="ms-5">
+                                        <span class="mt-4">1</span>
+                                        <span class="mt-4">0</span>
+                                    </div>           
+                                </div>
+                                <button class="matchroom-btn"> <span>MATCHROOM</span> <i class=" icon-matchroom-btn fa-solid fa-angles-right"></i></button>
+
+                             </div>
+
+                             
+                        </div>
+                        
+
+                        
+                    </div>
+
+                </div>
             </div>
-          
-            <div class="swiper-pagination"></div>
-          </div>
 
-          <!-- Swiper JS -->
-            </div>
-         </div>    
-  
-    </div>
+                 <!------ next match ------>
+
+                 <div class="col-md-7">
+                    <div class="last-match">
+                        <h6 style="text-align: start;" class="ps-5">Last matches:</h6>
+    
+                        <div class="result-next-match">
+    
+                            <div class="first-match">
+                                <div class="history-match">
+                                    <h6>22 <br>  oct</h6>
+                                </div>
+    
+    
+                                 <div class="lm">
+                                    <span class="SERIE "> SERIE A - 21:45</span>
+    
+                                    <div class="goals mt-3">
+                                         <div class="team-name">
+                                            <h4>MILAN </h4> 
+                                            <h4>JUVENTUS</h4>    
+                                        </div>  
+                                        <div class="ms-5">
+                                            <span class="mt-4">0</span>
+                                            <span class="mt-4">1</span>
+                                        </div>           
+                                    </div>
+                                    <button class="matchroom-btn"> <span>MATCHROOM</span> <i class=" icon-matchroom-btn fa-solid fa-angles-right"></i></button>
+    
+                                 </div>
+    
+                                 
+                            </div>
+                            
+                  
+                            <div class="first-match">
+                                <div class="history-match">
+                                    <h6>28 <br>  oct</h6>
+                                </div>
+    
+    
+                                 <div class="lm">
+                                    <span class="SERIE "> SERIE A - 21:45</span>
+    
+                                    <div class="goals mt-3">
+                                         <div class="team-name">
+                                            <h4>JUVENTUS </h4> 
+                                            <h5>HELLAS </h5>    
+                                            <h5>VERONA </h5>    
+    
+                                        </div>  
+                                        <div class="ms-5">
+                                            <span class="mt-4">1</span>
+                                            <span class="mt-4">0</span>
+                                        </div>           
+                                    </div>
+                                    <button class="matchroom-btn"> <span>MATCHROOM</span> <i class=" icon-matchroom-btn fa-solid fa-angles-right"></i></button>
+    
+                                 </div>
+    
+                                 
+                            </div>
+                            
+    
+                            
+                        </div>
+    
+                    </div>
+                 </div>
+
+        </div>
+       </div>
 
 
-    <div class="swiper-button-next"> </div>
-    <div class="swiper-button-prev"></div>
-    <h1 class="all-contents">kigyu</h1>
+ 
+    </section>
 
-    <script 
-    src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <!-- <script  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <!---------------------------------------------------->
 
+
+    <script   src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
       <script src="js/all.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    

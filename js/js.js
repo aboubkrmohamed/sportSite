@@ -101,14 +101,10 @@ var swiper = new Swiper(".mySwiper", {
     else if(scrollvalue <65)
     {
       console.log(scrollvalue)
-      mainSwiper.style.bottom="-5%";
-    }
-
-    else if(scrollvalue <75)
-    {
-      console.log(scrollvalue)
       mainSwiper.style.bottom="0%";
     }
+
+ 
 
   }
 
