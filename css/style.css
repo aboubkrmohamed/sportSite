@@ -1,4 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+  @font-face
+  {font-family:JuventusFans;
+    src:url(../fonts/JuventusFans--medium.woff2) format("woff2"),url(fonts/JuventusFans--medium.woff2) format("woff");
+     font-weight:500;
+     font-style:normal
+    
+    }
   body
 {
     overflow-x: hidden;
@@ -656,3 +664,94 @@ background-image: url('../imges/hslide1.jpg');
   font-weight: 800;
 }
 
+/**********************************************/
+
+/* shop now */
+.shop-now
+{
+  margin: 50px auto;
+  text-align: center;
+  padding: 5% 0;
+  cursor: pointer;
+
+}
+.shop-now img 
+{
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+}
+
+.shop-now img:hover
+{
+  transform: scale(1.1); 
+}
+
+/*************** years-special **************/
+
+.years-special
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   overflow: hidden;
+  min-height: 90vh;
+  width: 100%;
+  background-image: url('../imges/bgspicial.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% ;
+  margin-bottom: 20px;
+}
+
+.title-button
+{
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.title-button h1 
+{
+  font-size: 8rem;
+  font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 900;
+ }
+ .title-button button
+ {
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #e62e4c;
+  font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
+  border: none;
+  font-weight: 800;
+  font-size: 1.6rem;
+  padding: 6px 80px ;
+  position: relative;
+ }
+
+ .read-here
+ {
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #e62e4c;
+  position: absolute;
+  margin-top: 7px;
+  right: 30%;
+  z-index: -1;
+  opacity: 0;
+  font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
+  transition: all 1s;
+ }
+
+ .title-button button:hover .read-here
+ {
+
+  right: 20%;
+  z-index: 1;
+  opacity: 1;
+ }
