@@ -1,0 +1,324 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+  body
+{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #000;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 25px;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/***************** home  *******************/
+
+.home 
+{
+overflow-x: hidden;
+}
+
+/*this slider is background for home section  */
+
+.slider
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../imges/slide3.jpg');
+    background-position: 20% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* content (nav -social media -icons slide */
+
+.content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.show-slider ,.hide-slider
+{
+    z-index: 99999;
+    margin: 0 25%;
+ position: relative;
+      text-align: center;
+     color: #fff;
+     cursor: pointer;
+ 
+ }
+ 
+ #linkHideSlider
+ {
+     display: none;
+ }
+/* navbar */
+
+
+.nav-ele 
+{
+     color: #cdcdcd;
+     background-color: rgba(0, 0, 0, 0.7);
+     height: 100vh;
+      width: 7%;
+     z-index: 2;
+}
+
+.links 
+{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+  }
+  
+.links a 
+{
+     font-size: 2rem;
+     margin-bottom: 22px;
+     cursor: pointer;
+     display: flex;
+ 
+     justify-content: center;
+     padding: 15px;
+     position: relative;
+}
+
+ 
+
+.title-link 
+{
+    top: 0;
+    left: 100%;
+    color: #fff;
+    padding:7px ;
+    position: absolute;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links a:hover 
+ 
+{
+    background-color: rgba(61,61,61,.8);
+
+}
+
+.links a:hover .title-link
+{
+display: block;
+background-color: rgba(61,61,61,.8);
+
+}
+
+/* logo right  */
+.logo-right 
+{
+color: #fff;
+ position: fixed;
+top: 0;
+right: 0;
+justify-content: end;
+ }
+.imges-logo
+{
+     justify-content: end;
+     padding: 0 10px;
+     
+ }
+.imges-logo img 
+{
+    width:15%;
+}
+
+.icons-logo 
+{
+    background-color: #000;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    
+}
+ 
+.icons-logo a
+{
+    font-size: 1.4rem;
+    transition: all .4s;
+}
+
+.icons-logo a:hover
+{
+    color: #ff2850;
+}
+
+
+/* social-media */
+.social-media 
+{
+    z-index: 99999;
+     position: absolute;
+    top: 25%; 
+    right: 2%; 
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+ 
+.for-icon-social 
+{
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding: 9px;
+    width: 15px;
+    height: 15px;
+    transition: all .4s;
+ }
+
+.for-icon-social:hover
+{
+    border-color:  #ff2850;
+    color: #ff2850;
+}
+
+
+
+.swiper {
+     width: 100%;
+     position: absolute;
+     bottom: -60%;
+     transition: all 1s;
+  }
+ 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next  
+  {
+    position: relative !important;
+     top:50px !important;
+     left: 100px !important;
+    color: #000 !important;
+     padding-left: 0px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000 !important;
+    transition: all ease-in-out .2s ;
+  }
+
+  .swiper-button-next:hover ,  .swiper-button-prev:hover
+  {
+    padding-left:20px !important;
+
+}
+
+
+  .swiper-button-prev
+  {
+    position: relative !important;
+     top:30px !important;
+    left: 30px !important;
+    color: #000 !important;
+    padding-left: 0px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000 !important;
+    transition: all ease-in-out .2s ;
+
+  }
+
+  .swiper-button-prev:hover
+{
+  padding-left:10px !important;
+
+}
+
+
+
+  .swiper-button-prev::after ,  .swiper-button-next::after
+  {
+     font-size: 1.6rem;
+     font-weight: 800;
+  }
+
+  
+
+
+.child
+{
+background-image: url('../imges/hslide1.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 100% ;
+  font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
+ text-transform: uppercase;
+ transform: scale(.98); 
+ border-radius: 20px;
+ box-shadow: 5px 10px 8px 10px #888888;
+ transition: transform 0.2s ease; 
+  cursor: pointer;
+   transition: all .5s ease-in-out;
+}
+.child:hover 
+{
+    transform: scale(1.009); 
+}
+
+.layer 
+{
+ 
+   background-color: rgba(0, 0, 0, 0.4);
+   padding-top: 80% ;
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+
+}
+.child-title
+{
+     color: #fff;
+     font-weight: 500;
+     padding: 10px;
+ }
+
+ .child button 
+ {
+     background-color: #ff2850;
+     margin:  15px;
+     padding: 12px 20px;
+     border: none;
+     color: #fff;
+     font-size: 900;
+  }
+
+
+
+
+
