@@ -758,17 +758,18 @@ background-image: url('../imges/hslide1.jpg');
 
  /* tickets  */
  
- .main-section-ticckets ,.main-section-Gifts 
+ .main-section-ticckets ,.main-section-Gifts ,.main-section-memberShip
  {
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
   width: 100%;
  height: auto;
   overflow: hidden;
  
  }
 
- .titl-ticket  
+ .titl-ticket  ,.title-memberShip
  {
   color: #fff;
   font-family: JuventusFans;
@@ -779,13 +780,13 @@ background-image: url('../imges/hslide1.jpg');
 }
  .two-btn 
  {
-  background-color: red;
-  position: absolute;
+   position: absolute;
   width: 100%;
   bottom: 8%;
   left: 0;
  }
-.two-btn  .btnPrevTicket ,.two-btn .btnNextTicket
+
+.two-btn  .btnPrevTicket ,.two-btn .btnNextTicket ,.btnNextMemberShip ,.btnPrevMemberShip
 {
 border: 3px solid #fff;
 position: absolute;
@@ -793,19 +794,21 @@ left: 5%;
 padding: 25px !important;
 border-radius: 50% ;
 }
-.btnNextTicket::after ,.btnPrevTicket::after
+.btnNextTicket::after ,.btnPrevTicket::after ,.btnPrevMemberShip::after,.btnNextMemberShip::after
 {
   color: #fff ;
   font-size: 25px !important;
   font-weight: 900 !important;
 }
-.two-btn .btnNextTicket
+
+.two-btn .btnNextTicket ,.btnNextMemberShip
 {
  
   left: 10%;
 }
 
-.Section-Tickets 
+
+.Section-Tickets ,.Section-memberShip 
  {
   background-color: rgba(0,0,0,0.5);
   padding: 110px 0;
@@ -817,7 +820,7 @@ border-radius: 50% ;
   right: 0;
  }
 
-    .SwiperTicket
+    .SwiperTicket ,.SwiperGifts ,.SwiperMemberShip
     {
       width: 100%;
     }
@@ -871,7 +874,7 @@ border-radius: 50% ;
       color: #e62e4c !important;
     }
 
-    .right-Tiket ,.right-Gifts
+    .right-Tiket ,.right-Gifts ,.right-memberShip
     {
       padding: 2% 0;
       height: auto;
@@ -903,4 +906,85 @@ border-radius: 50% ;
   padding: 8px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.btnsGift
+{
+  position: absolute;
+  
+  left: 10px;
+  background-color: red;
+}
+
+
+.btnPrevGift ,.btnNextGift
+{
+border: 3px solid #000;
+position: absolute;
+left: 5%;
+padding: 25px !important;
+border-radius: 50% ;
+}
+
+.btnNextGift
+
+{
+ 
+  left: 100px;
+  
+}
+
+.onlineShop 
+{
+  position: absolute;
+  right: 3%;
+  text-transform: uppercase;
+  font-family: JuventusFans,Roboto,Helvetica;
+  color: #000;
+}
+.onlineShop button 
+{
+  background-color: transparent;
+  border: 2px solid #e62e4c;
+  border-left: none;
+  border-right: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all .4s;
+}
+.onlineShop button:hover
+{
+  color: #e62e4c
+}
+ 
+
+.btnNextGift::after,.btnPrevGift::after
+{
+ color: #000;
+}
+
+
+/* memberShip */
+
+.SlidememberShip img
+{
+  position: relative;
+}
+.SlidememberShip h1 
+{
+  position: absolute; 
+  display: flex;
+  background-color: rgba(0, 0,0, 0.4);
+  justify-content: start;
+  align-items: end;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 0 0 6% 4% ;
+  z-index: 999999; 
+  top: 0;
+  width: 100%; 
+  height: 100%;
 }
