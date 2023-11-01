@@ -20,7 +20,7 @@ setInterval(function(){
 },4000)
 
 
-var swiper = new Swiper(".mySwiper", {
+var swiperHome = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 10,
     rewind: true,
@@ -109,3 +109,26 @@ var swiper = new Swiper(".mySwiper", {
   }
 
   window.addEventListener('scroll',showAndHideSlider);
+
+
+   var SwiperTicket = new Swiper('.SwiperTicket', {
+    slidesPerView: 3,
+    direction: getDirection(),
+    navigation: {
+      nextEl: '.btnNextTicket',
+      prevEl: '.btnPrevTicket',
+    },
+    on: {
+      resize: function () {
+        SwiperTicket.changeDirection(getDirection());
+      },
+    },
+  });
+
+  function getDirection() {
+    var windowWidth = window.innerWidth;
+    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+    return direction;
+  }
+ 

@@ -244,21 +244,21 @@ justify-content: end;
 
 /* for slider  */
 
-.swiper {
+.mySwiper {
      width: 100%;
      position: absolute;
      bottom: -60%;
      transition: all 1s;
   }
  
-  .swiper-slide img {
+  .mySlide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .swiper-button-next  
+  .SwiperNextBtn  
   {
     position: relative !important;
      top:60px !important;
@@ -272,14 +272,14 @@ justify-content: end;
     transition: all ease-in-out .2s ;
   }
 
-  .swiper-button-next:hover ,  .swiper-button-prev:hover
+  .SwiperNextBtn:hover ,  .SwiperNextPrev:hover
   {
     padding-left:20px !important;
 
 }
 
 
-  .swiper-button-prev
+  .SwiperNextPrev
   {
     position: relative !important;
      top:40px !important;
@@ -294,7 +294,7 @@ justify-content: end;
 
   }
 
-  .swiper-button-prev:hover
+  .SwiperNextPrev:hover
 {
   padding-left:10px !important;
 
@@ -302,7 +302,7 @@ justify-content: end;
 
 
 
-  .swiper-button-prev::after ,  .swiper-button-next::after
+  .SwiperNextPrev::after ,  .SwiperNextBtn::after
   {
      font-size: 1.6rem;
      font-weight: 800;
@@ -755,3 +755,141 @@ background-image: url('../imges/hslide1.jpg');
   z-index: 1;
   opacity: 1;
  }
+
+ /* tickets  */
+ 
+ .main-section-ticckets
+ {
+  background-image: url('../imges/miqhpebmz4odpmidhea1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+ height: auto;
+  overflow: hidden;
+ 
+ }
+
+ .titl-ticket 
+ {
+  color: #fff;
+  font-family: JuventusFans;
+  font-size: 5rem;
+  padding: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+ .two-btn 
+ {
+  background-color: red;
+  position: absolute;
+  width: 100%;
+  bottom: 8%;
+  left: 0;
+ }
+.two-btn  .btnPrevTicket ,.two-btn .btnNextTicket
+{
+border: 3px solid #fff;
+position: absolute;
+left: 5%;
+padding: 25px !important;
+border-radius: 50% ;
+}
+.btnNextTicket::after ,.btnPrevTicket::after
+{
+  color: #fff ;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+}
+.two-btn .btnNextTicket
+{
+ 
+  left: 10%;
+}
+
+.Section-Tickets 
+ {
+  background-color: rgba(0,0,0,0.5);
+  padding: 110px 0;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ }
+
+    .SwiperTicket
+    {
+      width: 100%;
+    }
+
+    .SlideTicket {
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+    .underlayerslide
+    {
+      padding: 14% 4%;
+      text-transform: uppercase;
+      background-color: rgba(0,0,0,0.6);
+      width: 100%;
+      font-family: JuventusFans,Roboto,Helvetica;
+      color: #fff;
+    }
+
+    .underlayerslide h6
+    {
+      color: #909090;
+    }
+    .underlayerslide h3 
+    {
+      margin-top: 20px;
+      line-height: 30px;
+      font-weight: 800;
+      font-size: 3rem;
+    }
+    .underlayerslide h4 
+    {
+      font-weight: 500;
+      font-size: 2.5rem;
+    }
+    .underlayerslide button 
+    {
+      padding: 8px 20px ;
+      width: 150px;
+      color: #fff;
+      border: 1px solid #e62e4c;
+      background-color: #e62e4c;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+
+    .btn-trns 
+    {
+      background-color: transparent !important;
+      color: #e62e4c !important;
+    }
+
+    .right-Tiket
+    {
+       padding: 2% 0;
+      height: auto;
+    }
+
+
+    @media (max-width: 760px) {
+      .btnNextTicket 
+      {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .btnPrevTicket
+       {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
+  
