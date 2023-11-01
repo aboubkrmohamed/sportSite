@@ -119,11 +119,11 @@ var swiperHome = new Swiper(".mySwiper", {
 
       prevEl: '.btnPrevTicket',
     },
-    on: {
-      resize: function () {
-        SwiperTicket.changeDirection(getDirection());
-      },
-    },
+    // on: {
+    //   resize: function () {
+    //     SwiperTicket.changeDirection(getDirection());
+    //   },
+    // },
   });
 
 
