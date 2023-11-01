@@ -758,9 +758,8 @@ background-image: url('../imges/hslide1.jpg');
 
  /* tickets  */
  
- .main-section-ticckets
+ .main-section-ticckets ,.main-section-Gifts 
  {
-  background-image: url('../imges/miqhpebmz4odpmidhea1.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -769,7 +768,7 @@ background-image: url('../imges/hslide1.jpg');
  
  }
 
- .titl-ticket 
+ .titl-ticket  
  {
   color: #fff;
   font-family: JuventusFans;
@@ -872,9 +871,9 @@ border-radius: 50% ;
       color: #e62e4c !important;
     }
 
-    .right-Tiket
+    .right-Tiket ,.right-Gifts
     {
-       padding: 2% 0;
+      padding: 2% 0;
       height: auto;
     }
 
@@ -893,3 +892,15 @@ border-radius: 50% ;
       }
     }
   
+
+    /*************** Gifts ***************/
+
+.titl-Gifts
+{
+  color: #000;
+  font-family: JuventusFans;
+  font-size: 3rem;
+  padding: 8px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
