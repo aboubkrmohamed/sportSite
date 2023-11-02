@@ -162,6 +162,24 @@ var swiperHome = new Swiper(".mySwiper", {
     // },
   });
 
+  // MemberShip 
+  
+  var SwiperTV = new Swiper('.SwiperTV', {
+    slidesPerView: 4,
+    direction: getDirection(),
+    navigation: {
+      nextEl: '.btnNexttv' ,
+      prevEl: '.btnPrevtv',
+    },
+
+    // on: {
+    //   resize: function () {
+    //     SwiperTV.changeDirection(getDirection());
+    //   },
+    // },
+
+  });
+
 
   
 
