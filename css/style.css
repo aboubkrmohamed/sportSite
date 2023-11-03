@@ -30,6 +30,10 @@ a
     cursor: pointer;
 }
 
+ul
+{
+  list-style: none;
+}
 /***************** home  *******************/
 
 .home 
@@ -115,7 +119,67 @@ overflow-x: hidden;
  }
 /* navbar */
 
+.fixed-navbar
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  z-index: 99999999999;
+  padding: 1%;
+  transition: all .4s;
+  opacity: 1;
+  font-family: JuventusFans,Roboto,Helvetica;
 
+}
+
+.masterDropDown
+{
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 2.32rem;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+}
+
+.linke-fixed-nav
+{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-family: JuventusFans,Roboto,Helvetica;
+text-transform: uppercase;
+}
+
+.linke-fixed-nav li 
+{
+font-size: 1.9rem;
+
+}
+
+.linke-fixed-nav .a 
+{
+  color: #fff;
+  transition: all .4s;
+}
+.linke-fixed-nav .a:hover
+{
+  color: #e62e4c;
+}
+.linksDropDown
+{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #8e8e8e;
+  
+}
+/**************************************************************/
 .nav-ele 
 {
      color: #cdcdcd;
@@ -134,11 +198,10 @@ overflow-x: hidden;
   
 .links a 
 {
-     font-size: 2rem;
+     font-size: 2.4rem;
      margin-bottom: 22px;
      cursor: pointer;
      display: flex;
- 
      justify-content: center;
      padding: 15px;
      position: relative;
@@ -154,7 +217,11 @@ overflow-x: hidden;
     padding:7px ;
     position: absolute;
     display: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: JuventusFans,Roboto,Helvetica;
+    font-size: 2.3rem;
+    font-weight: 600;
+
+    /* font-family: 'Roboto', sans-serif;fon */
 }
 
 .links a:hover 
@@ -242,6 +309,7 @@ justify-content: end;
 }
 
 
+
 /* for slider  */
 
 .mySwiper {
@@ -299,8 +367,6 @@ justify-content: end;
   padding-left:10px !important;
 
 }
-
-
 
   .SwiperNextPrev::after ,  .SwiperNextBtn::after
   {
@@ -376,15 +442,7 @@ background-image: url('../imges/hslide1.jpg');
      padding: 10px;
  }
 
-
- /* {
-     margin:  15px;
-     padding: 12px 20px;
-     border: none;
-     color: #fff;
-     font-size: 900;
-  } */
-
+ 
 
   .child-btn  {
     border-radius: 4px;
@@ -1273,4 +1331,94 @@ opacity: 1;
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+/* footer  */
+footer
+{
+
+  background-color: rgb(0, 0, 0);
+  padding: 2% 1%;
+}
+
+
+.up-section
+{
+  padding: 1% 0;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer img
+{
+  width: 80px;
+}
+
+.socia-media-footer
+{
+  color: #fff;
+}
+.socia-media-footer a 
+{
+  padding: 0 9px;
+}
+
+/*********** quik-links *******/
+
+.quik-links
+{
+  font-family: JuventusFans,Roboto,Helvetica;
+  text-transform: uppercase;
+  padding: 1% 0;
+  border-bottom: 1px solid #333;
+ 
+}
+.sub-links
+{
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all .4s;
+}
+.master-link
+{
+  transition: all .4s;
+  font-weight: 700 ;
+color: #fff ;
+font-size: 1.3rem ;
+}
+
+.sub-links:hover, .master-link:hover
+{
+  color: #222;
+}
+
+.logo-images-footer  img
+{
+  opacity: 0.4;
+  transition: all .4s;
+}
+
+.logo-images-footer img:hover
+{
+opacity: 1;
+}
+.copy-right
+{
+  padding: 1%;
+  background-color:#151515 ;
+  text-align: center;
+  color: #666;
+  font-family: JuventusFans,Roboto,Helvetica;
+  text-transform: uppercase;
+}
+ 
+.copy-right span
+{
+  font-size:1.4rem;
+}
+.copy-right p 
+{
+  font-size: 1.1rem;
 }

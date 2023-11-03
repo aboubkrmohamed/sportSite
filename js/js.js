@@ -102,8 +102,17 @@ var swiperHome = new Swiper(".mySwiper", {
     {
       console.log(scrollvalue)
       mainSwiper.style.bottom="0%";
+      let fixednavbar=document.querySelector(".fixed-navbar");
+      fixednavbar.style.opacity="0";
+
     }
 
+    else if (scrollvalue >300)
+    {
+      let fixednavbar=document.querySelector(".fixed-navbar");
+      fixednavbar.style.opacity="1";
+
+    }
  
 
   }
