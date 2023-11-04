@@ -111,6 +111,8 @@ var swiperHome = new Swiper(".mySwiper", {
     {
       let fixednavbar=document.querySelector(".fixed-navbar");
       fixednavbar.style.opacity="1";
+      fixednavbar.style.display="flex";
+
 
     }
  

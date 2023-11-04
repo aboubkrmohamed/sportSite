@@ -1,0 +1,446 @@
+
+/* media from 1200px to 992px  */
+
+@media screen and (max-width:1200px) and (min-width:992px) 
+{
+    
+/*********** current time **************/
+.current-time
+{
+ 
+  width: 30%;
+  height: 55%;
+ 
+}
+.current-time h1
+{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.current-time h6
+{
+  font-weight: 500;
+  font-size: .8rem;
+}
+}
+/* media from 992px to 768px  */
+
+@media screen and (max-width:992px) and (min-width:768px) 
+{
+    /* home section   */
+ .imges-logo
+{
+   justify-content: end;
+    padding:  10px;         
+}
+
+    .imges-logo img 
+{
+    width:10%;
+}
+
+  .SwiperNextBtn
+  {
+    
+    left: 15% !important;
+  }
+
+  .child-btn  
+  {
+    font-size: 1.2rem;
+}
+ 
+
+
+/* last match   */
+.last-match 
+{
+  text-align: start;
+  padding: 5% 10% 0 5%;
+  
+ }
+
+ .last-match h4
+ {
+   text-align: start;
+   margin-left: 4%; 
+ }
+
+
+.history-match h6 
+{
+   line-height: 45px;
+  font-size: 2.2rem;
+
+}
+.result-next-match 
+{
+   justify-content: start;
+}
+
+.first-match
+{
+  padding:1%;
+  margin:1% 6%;
+}
+
+.history-match 
+{
+ margin: 0 12px;
+ padding: 20% 3%;
+}
+.lm
+{
+  text-align: start;
+}
+.SERIE
+{
+   font-size: 1rem;
+   color:  #989787;
+}
+ 
+.team-name
+{
+    margin-right: 100px;
+}
+ 
+.goals h3
+{
+  font-size: 2rem;
+}
+ 
+}
+
+
+/* media from  768px to 500px */
+
+@media screen and (max-width:768px) and (min-width:500px)  
+{
+    /* home section   */
+ .imges-logo
+{
+   justify-content: end;
+    padding:  10px;         
+}
+
+.show-slider ,.hide-slider
+{
+ margin-left: 30%;
+ margin-top: 30px;
+  
+ }
+
+    .imges-logo img 
+{
+    width:10%;
+}
+
+  .SwiperNextBtn
+  {
+    
+    left: 17% !important;
+  }
+
+  .child-btn  
+  {
+    font-size: .6rem;
+}
+.nav-ele 
+{
+width: 12%;
+}
+
+
+
+/* last match   */
+.last-match 
+{
+  padding: 5% 0% 0 0%;
+  
+ }
+
+ .last-match h4
+ {
+   text-align: start;
+   margin-left: 7%; 
+ }
+
+
+.history-match h6 
+{
+   line-height: 35px;
+  font-size: 1.6rem;
+
+}
+.result-next-match 
+{
+   justify-content: start;
+}
+
+.first-match
+{
+  padding:1%;
+  margin:1% ;
+}
+
+.history-match 
+{
+ margin: 0 12px;
+ padding: 20% 2%;
+}
+.lm
+{
+  text-align: start;
+}
+.SERIE
+{
+   font-size: 1rem;
+   color:  #989787;
+}
+ 
+.team-name
+{
+    margin-right: 10px;
+}
+ 
+.goals h3
+{
+  font-size: 1.5rem;
+}
+
+
+.matchroom-btn  
+{ 
+padding:3px 30px;
+margin: 1px;
+position: relative;
+font-size: 1.2rem;
+}
+  
+  
+   .icon-matchroom-btn
+   {
+    right: 0px;
+    top: 2%;
+    padding-right: 7px;
+   }
+
+ /* next match  */
+ .next-match  
+ {
+    padding:3% 3% 2% 3%  ;
+ }
+
+ 
+ 
+ 
+ /* anlysis-matchs  */
+ 
+ .anlysis-matchs
+ {
+   margin-left: 5%;
+ }
+ .win
+ {
+   margin-left: 20px;
+ }
+ .win h5
+ {
+   font-size: 1rem;
+ }
+ 
+ .win h4 
+ {
+ 
+   font-size: 1.4rem;
+ }
+ 
+ .current-time
+ {
+   right: 0;
+   width: 30%;
+   height: 60%;
+   top: 0;
+ }
+ .current-time h1
+ {
+
+   font-size: 2.1rem;
+ }
+ 
+ .current-time h6
+ {
+   font-size: 1rem;
+ }
+}
+
+/* media from 500px */
+
+@media screen and (max-width:500px)  
+{
+    /* home section   */
+ .imges-logo
+{
+     padding:  8px;         
+}
+
+.show-slider ,.hide-slider
+{
+ margin-left: 25%;
+ margin-top: 40px;
+  
+ }
+
+    .imges-logo img 
+{
+    width:8%;
+}
+
+  .SwiperNextBtn
+  {
+    
+    left: 23% !important;
+  }
+.child
+{
+    border-radius: 0px;
+}
+
+.child-btn  
+{
+    font-size: .4rem;
+    padding:7px 15px;
+}
+
+.child-title
+{
+    font-size: .8rem;
+    padding: 5px;
+    font-weight: 400;
+
+
+}
+.nav-ele 
+{
+width: 15%;
+}
+ 
+/* last match   */
+.last-match 
+{
+  padding: 5% 0% 0 0%;
+}
+
+ .last-match h4
+ {
+   text-align: start;
+   margin-left: 5%; 
+ }
+
+
+.history-match h6 
+{
+   line-height: 30px;
+  font-size: 1.3rem;
+
+}
+.result-next-match 
+{
+   justify-content: start;
+}
+
+.first-match
+{
+  padding:1%;
+  margin:1% ;
+}
+
+.history-match 
+{
+ margin: 0 7px;
+ padding: 20% 2%;
+}
+.lm
+{
+  text-align: start;
+}
+.SERIE
+{
+   font-size: 1rem;
+   color:  #989787;
+}
+ 
+.team-name
+{
+    margin-right: 2px;
+}
+ 
+.goals h3
+{
+  font-size: 1.4rem;
+}
+
+
+.matchroom-btn  
+{ 
+padding:3px 20px;
+
+font-size: 1rem;
+}
+  
+  
+   .icon-matchroom-btn
+   {
+    right: 0px;
+    top: 1%;
+    padding-right: 0px;
+   }
+
+ /* next match  */
+ .next-match  
+ {
+    padding:  2%  ;
+ }
+ 
+ /* anlysis-matchs  */
+ 
+ .anlysis-matchs
+ {
+   margin-left: 5%;
+ }
+ .win
+ {
+   margin-left: 20px;
+ }
+ .win h5
+ {
+   font-size: 1rem;
+ }
+ 
+ .win h4 
+ {
+ 
+   font-size: 1.4rem;
+ }
+ 
+ .current-time
+ {
+   left:5%;
+   width: 90%;
+   margin-top: 2%;
+   height: 60%;
+   top: 0;
+   position: relative;
+ }
+ .current-time h1
+ {
+
+   font-size: 2.7rem;
+ }
+ 
+ .current-time h6
+ {
+   font-size: 1.3rem;
+ }
+}

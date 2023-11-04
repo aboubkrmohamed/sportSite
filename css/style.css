@@ -71,21 +71,24 @@ overflow-x: hidden;
     z-index: 1;
 }
 
-.show-slider ,.hide-slider
-{
- z-index: 99999;
- margin:2% 50%;
- position: absolute; 
- color: #fff;
-  margin-top: 30px;
-  
- }
+  .show-slider ,.hide-slider
+  {
+  margin:2% 50%;
+  position: absolute; 
+  color: #fff;
+  z-index: 9999;
+    margin-top: 30px;
+    
+  }
  #linkShowSlider ,#linkHideSlider
  {
   cursor: pointer;
   border: 1px solid #fff;
    padding: 20px;
-   border-radius: 50%;
+    border-radius: 50%;
+   z-index: 9999;
+
+ 
    position: relative;
  }
  #iconShowSlider  ,#iconHideSlider
@@ -125,14 +128,14 @@ overflow-x: hidden;
   top: 0;
   left: 0;
   background-color: #000;
-  display: flex;
+  opacity: 0;
+  display: none;
   justify-content: space-between;
   width: 100%;
   height: auto;
-  z-index: 99999999999;
+  z-index: 99;
   padding: 1%;
   transition: all .4s;
-  opacity: 1;
   font-family: JuventusFans,Roboto,Helvetica;
 
 }
@@ -149,16 +152,15 @@ overflow-x: hidden;
 
 .linke-fixed-nav
 {
-  display: flex;
-  align-items: center;
-  align-items: center;
-  font-family: JuventusFans,Roboto,Helvetica;
-text-transform: uppercase;
-}
+   display: flex;
+   align-items: center;
+   font-family: JuventusFans,Roboto,Helvetica;
+   text-transform: uppercase;
+  }
 
 .linke-fixed-nav li 
 {
-font-size: 1.9rem;
+font-size: 1.8rem;
 
 }
 
@@ -282,7 +284,7 @@ justify-content: end;
 /* social-media */
 .social-media 
 {
-    z-index: 99999;
+    z-index: 9;
      position: absolute;
     top: 25%; 
     right: 2%; 
@@ -316,8 +318,9 @@ justify-content: end;
      width: 100%;
      position: absolute;
      bottom: -60%;
+     z-index: 99;
      transition: all 1s;
-  }
+   }
  
   .mySlide img {
     display: block;
@@ -345,7 +348,6 @@ justify-content: end;
     padding-left:20px !important;
 
 }
-
 
   .SwiperNextPrev
   {
@@ -443,49 +445,36 @@ background-image: url('../imges/hslide1.jpg');
  }
 
  
-
-  .child-btn  {
+.child-btn  {
     border-radius: 4px;
     background-color: #ff2850;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    /* font-size: 28px; */
+    font-size: 1.6rem;
     padding:12px 20px;
     /* width: 200px; */
     transition: all 0.5s;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+
     margin: 15px;
   }
 
-  
-.child-btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+
+.child-btn .arrrow-artical
+{
+  transition: all .8s;
+  display: none;
+  padding-left: 4px;
 }
 
-.child-btn span:after {
-  content: '\00bb';
-  position: absolute;
-   opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.child:hover .arrrow-artical
+{
+display: flex;
 }
-
-
-.child:hover .child-btn>span {
-  padding-right: 20px;
-
-  
-}
-
-.child:hover .child-btn>span:after {
-  opacity: 1;
-  right: 0;
-} 
+ 
 /* result matches */
 
 .results-match 
@@ -504,7 +493,7 @@ background-image: url('../imges/hslide1.jpg');
   background-color: #2b2b2b;
   overflow: hidden;
   text-align: end;
-  padding: 5% 10% 0 15%;
+  padding: 5% 10% 0 0%;
 
   color: #fff;
   font-family: JuventusFans,Helvetica;
@@ -512,27 +501,26 @@ background-image: url('../imges/hslide1.jpg');
   font-weight: 900;
 }
 
-.last-match h6
+.last-match h4
 {
   font-weight: 800;
+  
 
 }
 
 .history-match h6 
 {
   font-weight: 550;
-  line-height: 25px;
+  line-height: 35px;
+  font-size: 1.4rem;
 
 }
 .result-next-match 
 {
   display: flex;
    justify-content: end;
-   font-weight: 900;
-
-
+   font-weight:800;
 }
-
 
 .first-match
 {
@@ -546,7 +534,7 @@ background-image: url('../imges/hslide1.jpg');
 {
   background-color: #000;
  height: 100%;
- margin: 0 10px;
+ margin: 0 12px;
  font-weight: 900;
  text-align: center;
  padding: 10% 1%;
@@ -555,11 +543,10 @@ background-image: url('../imges/hslide1.jpg');
 {
   font-weight: 900;
   text-align: start;
- 
 }
 .SERIE
 {
-   font-size: 12px;
+   font-size: .8rem;
    color:  #989787;
 }
 .goals
@@ -567,19 +554,23 @@ background-image: url('../imges/hslide1.jpg');
   color: #fff;
    display: flex;
 }
-.goals h5 
+.goals h4
 {
-  font-weight: 900;
+  font-weight: 500;
+}
+.goals h2 
+{
+  font-weight: 600;
 }
 .goals h6
 {
   font-weight: 600;
 }
-.goals span
+.goals h3
 {
   color: #e62e4c;
-  font-size: 1.3rem;
-
+  font-size: 1.8rem;
+  font-weight: 700;
   font-family: JuventusFans,Helvetica;
 }
 
@@ -590,11 +581,12 @@ background-image: url('../imges/hslide1.jpg');
   border: none;
   color: #FFFFFF;
   text-align: center;
-   padding:10px 25px;
+   padding:5px 35px;
    transition: all 0.5s;
   cursor: pointer;
   margin: 1px;
   position: relative;
+  font-size: 1.3rem;
  }
 
 
@@ -629,10 +621,9 @@ background-image: url('../imges/hslide1.jpg');
     position: relative;
     font-weight: 900;
 }
-.next-match h6
+.next-match h4
 {
-  font-weight: 800;
-
+  font-weight: 700;
 }
 
 .next-history
@@ -643,10 +634,11 @@ background-image: url('../imges/hslide1.jpg');
   margin-right: 10px;
   text-align: center;
 }
-.next-history h6 
+.next-history h6
 {
-  font-size: 14px;
-  padding: 2px;
+  font-weight: 550;
+  line-height: 35px;
+  font-size: 1.4rem;
 }
 
 .content-next-match
@@ -657,26 +649,38 @@ background-image: url('../imges/hslide1.jpg');
 .content-next-match span
 {
   color:  #989787;
-  font-size: 10px;
+  font-size: .8rem;
 }
 
-.content-next-match h5 
+.content-next-match h2
 {
-  line-height: 18px;
+  /* line-height: 18px; */
   font-weight: 600;
+  
 }
 
 .standings {
   text-transform: uppercase;
   font-family: JuventusFans,Helvetica;
-  padding: 7px 30px;
+  padding: 5px 20px;
   color: #e62e4c;
   border: 1px solid #e62e4c;
   margin: 10px 0 20px 0;
-  font-weight: 700;
+  font-weight: 500;
   background: transparent;
 
 }
+.standings-icon 
+{
+  opacity: 0;
+  transition: all .6s;
+}
+
+.standings:hover .standings-icon
+{
+  opacity: 1;
+}
+
 
 /* anlysis-matchs  */
 
@@ -690,10 +694,10 @@ background-image: url('../imges/hslide1.jpg');
 {
   margin-left: 25px;
 }
-.win span
+.win h5
 {
   color: #999;
-  font-size: 15px;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: JuventusFans,Helvetica;
 
@@ -703,25 +707,35 @@ background-image: url('../imges/hslide1.jpg');
 {
   font-family: JuventusFans,Helvetica;
   font-weight: 700;
-  /* line-height: 20px; */
+  font-size: 1.7rem;
 }
 
 .current-time
 {
   position: absolute;
   background-image: linear-gradient(#555555, #1f1f1f );
-  padding: 5% ;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   top: -10px;
   right: 0;
   width: 40%;
   height: 70%;
+ 
 }
 .current-time h1
 {
   color: #fff;
   font-weight: 800;
+  font-size: 4rem;
 }
 
+.current-time h6
+{
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 /**********************************************/
 
 /* shop now */
