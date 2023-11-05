@@ -42,7 +42,44 @@
   padding: 6px 70px ;
  }
 
+ .title-memberShip 
+ {
+    font-size: 3.4rem;
+    padding: 0px;
+ }
+
+
+ /* JUVENTUS TV ******/
  
+.alklam h3
+{ 
+    left: 0;
+    right: 12%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.BtnsTv
+{
+    bottom: 14%;
+}
+.btnNexttv
+{
+    left: 12%;
+}
+
+/******************** your-possion ********************/
+.your-possion 
+{
+background-position: 50%;
+}
+
+.possion-content h1 
+{
+  font-size: 4.5rem;
+}
+
+
+
 }
 /* media from 992px to 768px  */
 
@@ -208,7 +245,72 @@ font-size: 1.2rem;
 padding: 1% 0;
 }
 
+/*************** btnsGift ****************/
+
+.btnPrevGift ,.btnNextGift
+{
+    font-size: 14rem;
+padding: 20px !important;
+}
+
+.btnNextGift::after ,.btnPrevGift::after
+{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.btnNextGift
+{
+  left: 70px; 
+}
+
+.titl-Gifts
+{
+
+  font-size: 2.3rem;
+  padding: 1px;
+  font-weight: 600;
+}
+
+/**************** SlidememberShip *****************/
+.title-memberShip 
+{
+   font-size: 2rem;
+   padding: 0px;
+}
+
+.SlidememberShip h1 
+{
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/**************** JUVENTUS TV  **********************/
+
+.alklam h3
+{ 
+    left: 0;
+    right: 12%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.two-btn
+{
+    bottom:  15%;
+}
  
+/******************** your-possion ********************/
+.your-possion 
+{
+background-position: 50%;
+}
+
+.possion-content h1 
+{
+  font-size: 3.5rem;
+}
+
+
 }
 
 
@@ -453,8 +555,84 @@ padding: 1% 0;
 }
 
  
+/*************** btnsGift ****************/
+
+.btnPrevGift ,.btnNextGift
+{
+margin-top: 15%;
+font-size: 14rem;
+padding: 20px !important;
 }
 
+.btnNextGift::after ,.btnPrevGift::after
+{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.btnNextGift
+{
+  left: 70px; 
+}
+
+.titl-Gifts
+{
+
+  font-size: 2.3rem;
+  padding: 1px;
+  font-weight: 600;
+}
+.SlidememberShip h1 
+{
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+/**************** JUVENTUS TV  **********************/
+
+.alklam h3
+{ 
+    left: 0;
+    right: 12%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+ 
+.BtnsTv
+{
+    bottom: 15%;
+}
+.wAllVideo
+{
+    margin-top: 20px;
+}
+ 
+.wAllVideo button 
+{
+  font-size: 1.2rem;
+  transition: all .4s;
+}
+.wAllVideo button:hover
+{
+  color: #e62e4c
+}
+
+/******************** your-possion ********************/
+.your-possion 
+{
+background-position: 50%;
+}
+
+.possion-content h1 
+{
+  font-size: 2.2rem;
+}
+.possion-content
+{
+  bottom: 1%;
+}
+}
 /* media from 500px */
 
 @media screen and (max-width:500px)  
@@ -711,4 +889,114 @@ padding: 1% 0;
 
  
 
+ 
+/*************** btnsGift ****************/
+
+.btnPrevGift ,.btnNextGift
+{
+margin-top: 15%;
+font-size: 14rem;
+padding: 20px !important;
+}
+
+.btnNextGift::after ,.btnPrevGift::after
+{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.btnNextGift
+{
+  left: 70px; 
+}
+
+.titl-Gifts
+{
+
+  font-size: 2.3rem;
+  padding: 1px;
+  font-weight: 600;
+}
+
+ 
+/*************** btnsGift ****************/
+
+.btnPrevGift ,.btnNextGift
+{
+margin-top: 15%;
+font-size: 14rem;
+padding: 20px !important;
+}
+
+.btnNextGift::after ,.btnPrevGift::after
+{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.btnNextGift
+{
+  left: 80px; 
+}
+
+.titl-Gifts
+{
+
+  font-size: 2.3rem;
+  padding: 1px;
+  font-weight: 600;
+}
+
+.SlidememberShip h1 
+{
+    justify-content: center;
+    font-size: 1rem;
+}
+
+
+
+/**************** JUVENTUS TV  **********************/
+
+.alklam h3
+{ 
+    left: 0;
+    right: 12%;
+  font-size: .6rem;
+  font-weight: 500;
+}
+ 
+.BtnsTv
+{
+    bottom: 17%;
+}
+.wAllVideo
+{
+    margin-top: 20px;
+}
+ 
+.wAllVideo button 
+{
+  font-size: 1.2rem;
+  transition: all .4s;
+}
+.wAllVideo button:hover
+{
+  color: #e62e4c
+}
+
+
+/******************** your-possion ********************/
+.your-possion 
+{
+background-position: 50%;
+}
+
+.possion-content h1 
+{
+  font-size: 1.6rem;
+}
+.possion-content
+{
+  bottom: 5px;
+}
 }

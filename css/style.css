@@ -1091,12 +1091,10 @@ border-radius: 50% ;
 .Slidetv .alklam 
 {
   position: absolute; 
-  background-color: rgba(0, 0,0, 0.4
-  );
+  background-color: rgba(0, 0,0, 0.4 );
   color: #fff;
   text-transform: uppercase;
   font-family: JuventusFans,Roboto,Helvetica,Arial,sans-serif;
-
   top: 0;
   /* bottom: -120px; */
   width: 100%; 
@@ -1134,8 +1132,6 @@ color: rgba(255, 255, 255,.7)
   font-size: 1.9rem;
   font-weight: 600;
 }
-
-
 
 .wAllVideo 
 {
@@ -1183,7 +1179,7 @@ min-height: 90vh;
 .possion-content
 {
   position: absolute;
-  bottom: 3%;
+  bottom: 2%;
   display: block;
   text-align: center;
   color: #fff;
@@ -1194,7 +1190,7 @@ min-height: 90vh;
 
 .possion-content h1 
 {
-  font-size: 6.3rem;
+  font-size: 5.7rem;
   font-weight: 600;
 }
 
