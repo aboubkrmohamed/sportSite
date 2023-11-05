@@ -124,17 +124,12 @@ var swiperHome = new Swiper(".mySwiper", {
 
    var SwiperTicket = new Swiper('.SwiperTicket', {
     slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
+     navigation: {
       nextEl: '.btnNextTicket' ,
 
       prevEl: '.btnPrevTicket',
     },
-    // on: {
-    //   resize: function () {
-    //     SwiperTicket.changeDirection(getDirection());
-    //   },
-    // },
+ 
   });
 
 
@@ -142,17 +137,12 @@ var swiperHome = new Swiper(".mySwiper", {
   
   var SwiperGifts = new Swiper('.SwiperGifts', {
     slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
+     navigation: {
       nextEl: '.btnNextGift' ,
       
       prevEl: '.btnPrevGift',
     },
-    // on: {
-    //   resize: function () {
-    //     SwiperGifts.changeDirection(getDirection());
-    //   },
-    // },
+ 
   });
 
 
@@ -160,44 +150,29 @@ var swiperHome = new Swiper(".mySwiper", {
   
    var SwiperMemberShip = new Swiper('.SwiperMemberShip', {
     slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
+     navigation: {
       nextEl: '.btnNextMemberShip' ,
       
       prevEl: '.btnPrevMemberShip',
     },
-    // on: {
-    //   resize: function () {
-    //     SwiperMemberShip.changeDirection(getDirection());
-    //   },
-    // },
+ 
   });
 
   // MemberShip 
   
   var SwiperTV = new Swiper('.SwiperTV', {
     slidesPerView: 4,
-    direction: getDirection(),
-    navigation: {
+     navigation: {
       nextEl: '.btnNexttv' ,
       prevEl: '.btnPrevtv',
     },
 
-    // on: {
-    //   resize: function () {
-    //     SwiperTV.changeDirection(getDirection());
-    //   },
-    // },
+ 
 
   });
 
 
   
 
-  function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-    return direction;
-  }
+ 
  
