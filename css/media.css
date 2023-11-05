@@ -308,7 +308,6 @@ width: 12%;
   font-size: 1.5rem;
 }
 
-
 .matchroom-btn  
 { 
 padding:3px 30px;
@@ -316,14 +315,13 @@ margin: 1px;
 position: relative;
 font-size: 1.2rem;
 }
-  
-  
-   .icon-matchroom-btn
-   {
+    
+.icon-matchroom-btn
+{
     right: 0px;
     top: 2%;
     padding-right: 7px;
-   }
+}
 
  /* next match  */
  .next-match  
@@ -418,7 +416,7 @@ margin: 0;
 .two-btn .btnNextTicket ,.btnNextMemberShip ,.btnNexttv 
 
 {
-  left: 14%;
+  left: 17%;
 }
 
 
@@ -635,7 +633,6 @@ font-size: 1rem;
    background-position: 50% 50% ;
 }
  
-
 .title-button h1 
 {
   font-size: 3.4rem;
@@ -646,5 +643,72 @@ font-size: 1rem;
   padding: 6px 50px ;
  }
 
+
+ 
+ /* tickets  */
+ 
+
+ .titl-ticket  ,.title-memberShip 
+{
+  font-size: 3.5rem;
+  padding: 5px;
+}
+
+
+.two-btn  .btnPrevTicket ,.btnNextTicket 
+{
+left: 1%;
+margin: 0;
+}
+
+.btnNextTicket::after ,.btnPrevTicket::after ,.btnPrevMemberShip::after,.btnNextMemberShip::after ,.btnNexttv::after ,.btnPrevtv::after
+{
+  font-size: 15px !important;
+}
+
+.two-btn .btnNextTicket ,.btnNextMemberShip ,.btnNexttv 
+
+{
+  left: 23%;
+}
+
+
+.Section-Tickets ,.Section-memberShip 
+ {
+  padding: 80px 0;
+ }
+
+.underlayerslide
+{
+padding: 11% 6%;
+
+}
+
+.underlayerslide h3 
+{
+margin-left: 15px;
+margin-top: 12px;
+font-size: 2rem;
+}
+
+.underlayerslide h4 
+{
+padding-left: 15px;
+font-size: 1.4rem;
+}
+
+.underlayerslide button 
+{
+    margin-left: 10px;
+padding: 5px;
+width: 100px;
+font-size: 1rem
+}
+.right-Tiket ,.right-Gifts ,.right-memberShip 
+{
+padding: 1% 0;
+}
+
+ 
 
 }
