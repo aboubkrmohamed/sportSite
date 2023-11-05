@@ -15,7 +15,7 @@
 }
 
 ::-webkit-scrollbar{
-    width: 6px;
+    width: 9px;
     background-color: #000;
   }
   ::-webkit-scrollbar-thumb{
@@ -181,6 +181,16 @@ font-size: 1.8rem;
   color: #8e8e8e;
   
 }
+
+.logofixednavbar
+{
+  text-align: end;
+}
+
+.logofixednavbar img 
+{
+  width: 20%;
+}
 /**************************************************************/
 .nav-ele 
 {
@@ -253,6 +263,7 @@ justify-content: end;
 {
      justify-content: end;
      padding: 0 10px;
+     display: flex;
      
  }
 .imges-logo img 
@@ -1296,6 +1307,12 @@ opacity: 1;
   background-image: linear-gradient(#464444, #111111);
   margin: 10% 5% 5% 5%;
 }
+
+.register-photo
+{
+  margin-top: -15%; 
+  height: 110%;
+}
 .register-content
 {
    padding: 2%;
@@ -1348,7 +1365,6 @@ footer
   background-color: rgb(0, 0, 0);
   padding: 2% 1%;
 }
-
 
 .up-section
 {

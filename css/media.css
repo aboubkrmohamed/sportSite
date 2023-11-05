@@ -80,6 +80,8 @@ background-position: 50%;
 
 
 
+
+
 }
 /* media from 992px to 768px  */
 
@@ -310,6 +312,58 @@ background-position: 50%;
   font-size: 3.5rem;
 }
 
+
+.underlineDownload h3 ,.underlinePlay h3
+{
+font-size: 2rem;
+}
+.underlineDownload h1 ,.underlinePlay h1
+{
+  font-size: 5rem;
+}
+
+
+
+/* navbar */
+ 
+ 
+
+.linke-fixed-nav li 
+{
+font-size: 1.3rem;
+
+}
+
+.linke-fixed-nav .a 
+{
+  color: #fff;
+  transition: all .4s;
+}
+.linke-fixed-nav .a:hover
+{
+  color: #e62e4c;
+}
+.linksDropDown
+{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #8e8e8e;
+  
+}
+/**************************************************************/
+
+
+
+.logofixednavbar
+{
+  text-align: center;
+}
+
+.logofixednavbar img 
+{
+  width: 40%;
+}
 
 }
 
@@ -632,6 +686,69 @@ background-position: 50%;
 {
   bottom: 1%;
 }
+
+
+.register-photo
+{
+  margin-top: 0%; 
+  height: 100%;
+}
+
+
+
+/* footer  */
+ 
+
+ 
+.logo-footer img
+{
+  width: 60px;
+}
+
+
+  
+ 
+.copy-right span
+{
+  font-size:1.2rem;
+}
+.copy-right p 
+{
+  font-size: .7rem;
+}
+
+.logo-images-footer img
+{
+    width: 12%;
+}
+/* .sub-links
+{
+    display: none;
+}
+. */
+.sub-links
+{
+    display: none;
+}
+
+
+
+.linke-fixed-nav{
+    display: none;
+}
+/**************************************************************/
+.logofixednavbar
+{
+margin-top: 10px;
+text-align: end;
+}
+
+.logofixednavbar img 
+{
+  width: 25%;
+}
+
+
 }
 /* media from 500px */
 
@@ -999,4 +1116,70 @@ background-position: 50%;
 {
   bottom: 5px;
 }
+
+.underlineDownload h3 ,.underlinePlay h3
+{
+font-size: 1.6rem;
+}
+.underlineDownload h1 ,.underlinePlay h1
+{
+  font-size: 3.5rem;
+}
+
+
+.register-photo
+{
+  margin-top: 0%; 
+  height: 100%;
+}
+
+.master-link
+{
+font-weight: 500 ;
+font-size: 1rem ;
+}
+
+
+.copy-right span
+{
+  font-size:1.2rem;
+}
+.copy-right p 
+{
+  font-size: .7rem;
+}
+
+.logo-images-footer img
+{
+    width: 12%;
+}
+ 
+.sub-links
+{
+    display: none;
+}
+
+
+/*****************************************/
+.linke-fixed-nav
+{
+    display: none;
+}
+
+.logofixednavbar
+{
+margin-top: 10px;
+text-align:center;
+}
+
+.logofixednavbar img 
+{
+  width: 35%;
+}
+
+.imges-logo img
+{
+    display: none ;
+}
+
 }
